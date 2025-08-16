@@ -1,7 +1,8 @@
 function getRepoDetails() {
-    const pathParts = window.location.pathname.split('/').filter(part => part);
-    const owner = pathParts[0] || 'abdallah-7amza'; // Fallback username
-    const repo = pathParts[1] || 'medical-platform'; // Fallback repo name
+    // We will hardcode the details to ensure they are always correct.
+    // This is the fix for the problem.
+    const owner = 'abdallah-7amza';
+    const repo = 'medical-platform';
     return { owner, repo };
 }
 
