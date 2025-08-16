@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Lesson</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="lesson-title-header">Lesson Title</h1>
+    </header>
+    <main>
+        <div class="container">
+            <a href="index.html" class="back-link">&larr; Back to all lessons</a>
+            <article id="lesson-content">
+                </article>
+            <section id="quiz-container" style="display: none;">
+                <h2>Test Your Knowledge</h2>
+                <div id="quiz-content"></div>
+                <button id="submit-quiz-btn">Submit Answers</button>
+            </section>
+            <section class="ai-tutor">
+                <h2>AI Tutor</h2>
+                <div id="api-key-section">
+                    <p>Enter your OpenAI API Key to enable the AI Tutor.</p>
+                    <input type="password" id="api-key-input" placeholder="sk-...">
+                    <button id="save-key-btn">Save Key</button>
+                </div>
+                <div id="chat-section" style="display: none;">
+                    <div id="chat-window"></div>
+                    <textarea id="chat-input" placeholder="Ask a question about this section..."></textarea>
+                    <button id="chat-send-btn">Send</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Powered by collaborative learning.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <script src="js/github.js"></script> <script src="js/ai.js"></script>
+    <script src="js/lesson.js"></script>
+</body>
+</html>
