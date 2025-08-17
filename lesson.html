@@ -8,18 +8,19 @@
 </head>
 <body>
     <header>
-        <h1 id="lesson-title-header">Lesson Title</h1>
+        <h1 id="lesson-title-header">Loading Lesson...</h1>
     </header>
     <main>
-        <div class="container">
+        <div class="container" id="main-container">
             <a href="index.html" class="back-link">&larr; Back to all lessons</a>
+            
             <article id="lesson-content">
-                </article>
-            <section id="quiz-container" style="display: none;">
-                <h2>Test Your Knowledge</h2>
-                <div id="quiz-content"></div>
-                <button id="submit-quiz-btn">Submit Answers</button>
-            </section>
+                <p>Loading content...</p>
+            </article>
+
+            <section id="quiz-container">
+                </section>
+            
             <section class="ai-tutor">
                 <h2>AI Tutor</h2>
                 <div id="api-key-section">
@@ -38,7 +39,9 @@
     <footer>
         <p>Powered by collaborative learning.</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <script src="js/ai.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/github.js"></script> <script src="js/ai.js"></script>
     <script src="js/lesson.js"></script>
 </body>
 </html>
