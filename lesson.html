@@ -23,13 +23,16 @@
             
             <section class="ai-tutor">
                 <h2>AI Tutor</h2>
-                <div id="api-key-section">
-                    <p>Enter your OpenAI API Key to enable the AI Tutor.</p>
+                <button id="ask-ai-btn">Ask the AI Tutor</button>
+                <div id="api-key-section" style="display: none;">
+                    <p>To enable the AI Tutor, please enter your OpenAI API Key and click Save.</p>
                     <input type="password" id="api-key-input" placeholder="sk-...">
                     <button id="save-key-btn">Save Key</button>
                 </div>
                 <div id="chat-section" style="display: none;">
-                    <div id="chat-window"></div>
+                    <div id="chat-window">
+                        <div class="message ai-message">Hello! How can I help you with this lesson?</div>
+                    </div>
                     <textarea id="chat-input" placeholder="Ask a question about this section..."></textarea>
                     <button id="chat-send-btn">Send</button>
                 </div>
@@ -41,7 +44,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="js/github.js"></script> <script src="js/ai.js"></script>
+    <script src="js/github.js"></script>
+    <script src="js/ai.js"></script>
     <script src="js/lesson.js"></script>
 </body>
 </html>
