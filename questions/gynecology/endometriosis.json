@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Which diagnostic method is considered the gold standard for endometriosis?",
+    "options": [ "Ultrasound showing ground glass appearance", "Elevated CA125 levels", "Laparoscopy", "Patient history of painful periods" ],
+    "answer": "Laparoscopy",
+    "explanation": "Laparoscopy is explicitly mentioned as the gold standard for diagnosing endometriosis."
+  },
+  {
+    "question": "An ovarian endometrioma is also commonly known as a:",
+    "options": [ "Functional cyst", "Dermoid cyst", "Follicular cyst", "Chocolate cyst" ],
+    "answer": "Chocolate cyst",
+    "explanation": "The PDF refers to a large endometrioma cyst as a 'chocolate cyst'."
+  }
+]
