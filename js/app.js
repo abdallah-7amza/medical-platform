@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const lessonListContainer = document.getElementById('lesson-list');
-
+    
     if (lessonListContainer) {
         const lessons = await getLessonFiles();
-
+        
         if (lessons.length > 0) {
             lessonListContainer.innerHTML = lessons.map(lesson => `
                 <a href="lesson.html?path=${lesson.path}" class="lesson-card">
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </a>
             `).join('');
         } else {
-            lessonListContainer.innerHTML = '<p>No lessons found. Make sure you have added lesson files in the "lessons" folder.</p>';
+            lessonListContainer.innerHTML = '<p>No lessons found or error loading from GitHub. Please check if the "lessons" folder exists and contains .md files.</p>';
         }
     }
 });
