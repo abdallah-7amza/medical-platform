@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is considered the gold standard for diagnosing a uterine fibroid?",
+    "options": [ "MRI", "Hysteroscopy", "Ultrasound (US)", "Laparoscopy" ],
+    "answer": "Ultrasound (US)",
+    "explanation": "Ultrasound (TVS/TAS) is cited as the gold standard diagnostic tool for fibroids."
+  },
+  {
+    "question": "Which type of fibroid degeneration is most common during pregnancy?",
+    "options": ["Hyaline degeneration", "Red degeneration (Necrobiosis)", "Cystic degeneration", "Calcification"],
+    "answer": "Red degeneration (Necrobiosis)",
+    "explanation": "Red degeneration, or necrobiosis, is an incomplete necrosis most commonly seen in fibroids during pregnancy."
+  }
+]
